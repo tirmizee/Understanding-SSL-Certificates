@@ -8,3 +8,4 @@
 - #### ใบรับรองถูกเพิกถอน (Revoked certificate)
 - #### CA ไม่น่าเชื่อถือ
 ### Disable or bypass SSL certificate checking (ปิดใช้งานหรือข้ามการตรวจสอบ SSL certificate)
+ เราจะ disable หรือ bypass การตรวจอสบ SSL certificate โดยการเชื่อถือใบรับรองทุกประเภท
