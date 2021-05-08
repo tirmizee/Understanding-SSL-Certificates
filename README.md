@@ -10,6 +10,11 @@
 ### Disable or bypass SSL certificate checking (ปิดใช้งานหรือข้ามการตรวจสอบ SSL certificate)
  เราจะ disable หรือ bypass การตรวจอสบ SSL certificate โดยการเชื่อถือใบรับรองทุกประเภท
 
+### Import .PEM to .JKS
+
+    # Conver .pem(text) to .der(binary)
+    openssl x509 -outform der -in Certificate.pem -out certificate.der
+
 ### Commands
 
     type certificate.pem
