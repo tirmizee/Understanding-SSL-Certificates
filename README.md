@@ -23,3 +23,4 @@
 
 - https://support.code42.com/Administrator/6/Configuring/Install_a_CA-signed_SSL_certificate_for_HTTPS_console_access
 - https://www.ssls.com/knowledgebase/how-to-install-an-ssl-certificate-on-a-tomcat-server/
+- https://support.code42.com/Administrator/6/Configuring/Install_a_CA-signed_SSL_certificate_for_HTTPS_console_access
