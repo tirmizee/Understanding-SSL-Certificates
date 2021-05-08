@@ -10,6 +10,10 @@
 ### Disable or bypass SSL certificate checking (ปิดใช้งานหรือข้ามการตรวจสอบ SSL certificate)
  เราจะ disable หรือ bypass การตรวจอสบ SSL certificate โดยการเชื่อถือใบรับรองทุกประเภท
 
+### Commands
+
+    type certificate.pem
+
 ### Reference
 
 - https://support.code42.com/Administrator/6/Configuring/Install_a_CA-signed_SSL_certificate_for_HTTPS_console_access
