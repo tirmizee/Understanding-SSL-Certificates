@@ -25,3 +25,4 @@
 - https://www.ssls.com/knowledgebase/how-to-install-an-ssl-certificate-on-a-tomcat-server/
 - https://support.code42.com/Administrator/6/Configuring/Install_a_CA-signed_SSL_certificate_for_HTTPS_console_access
 - https://stackoverflow.com/questions/27742554/java-lang-exception-public-keys-in-reply-and-keystore-dont-match
+- https://www.papercut.com/kb/Main/SSLWithKeystoreExplorer#part-one-creating-a-new-keystore
