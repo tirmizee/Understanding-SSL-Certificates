@@ -14,3 +14,7 @@
 .
 
     openssl x509 -in cacerts.pem -text
+
+### Reference
+
+- https://sharif2008.wordpress.com/2017/08/27/difference-between-p12-pfx-vs-crt-cer-vs-pem-vs-der/
