@@ -6,7 +6,7 @@
 
 ##### .DER Format
 
-<small>X.509 certificate in binary form</small>
+<small>DER is a binary encoding for X.509 certificates and private keys. DER files are most commonly seen in Java contexts</small>
 
 ##### .p12 (PKCS12) Format
 
