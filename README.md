@@ -10,7 +10,7 @@
 
 ##### .p12 (PKCS12) Format
 
-<small>มีทั่ง private/public ฝั่งอยู่</small>
+<small>มีทั่ง private/public ฝั่งอยู่. มั่กพบเจอในระบบของ windows</small>
 
 ### Reference
 
