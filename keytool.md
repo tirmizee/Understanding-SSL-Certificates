@@ -31,3 +31,4 @@
     -srcalias server-alias -deststorepass zaq12wsx -destkeypass zaq12wsx
     
     ใช้ openssl เพื่อ export PKCS12 ไปยัง .pem file
+    openssl pkcs12 -in keystore.p12  -nodes -nocerts -out key.pem
