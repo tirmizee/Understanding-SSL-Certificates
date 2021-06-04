@@ -10,7 +10,7 @@
 
     keytool -list -v -keystore keystore.jks
 
-##### Export certificate (public) จาก keystore.jks ไปยัง file
+##### ส่งออก certificate (public) จาก keystore.jks ไปยัง file
 
     export certificate เป็นยังไฟล์นามสกุล .cer
     keytool -export -alias server-alias -storepass changeit -file server.cer -keystore keystore.jks
@@ -24,3 +24,4 @@
     export certificate ในรูปแบบ "Base 64 encoding" โดยใช้คำสั่ง -rfc
     keytool -export -alias server-alias -storepass changeit -file server.crt -keystore keystore.jks -rfc
 
+##### ส่งออก key/privatekey จาก keystore.jks ไปยัง file
