@@ -8,6 +8,10 @@
 
 <small>X.509 certificate in binary form</small>
 
+##### .p12 (PKCS12) Format
+
+<small>มีทั่ง private/public ฝั่งอยู่</small>
+
 ### Reference
 
 - https://gist.github.com/fntlnz/cf14feb5a46b2eda428e000157447309
