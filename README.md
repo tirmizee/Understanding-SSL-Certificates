@@ -4,7 +4,7 @@
 
 <small>X.509 certificate encoded in text (base64 and encrypted)</small>
 
-##### .DER .CRT Format
+##### .DER Format
 
 <small>X.509 certificate in binary form</small>
 
