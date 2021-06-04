@@ -24,4 +24,3 @@
     export certificate ในรูปแบบ "Base 64 encoding" โดยใช้คำสั่ง -rfc
     keytool -export -alias server-alias -storepass changeit -file server.crt -keystore keystore.jks -rfc
 
-##### Print Certificate
