@@ -21,4 +21,7 @@
     export certificate เป็นยังไฟล์นามสกุล .crt
     keytool -export -alias server-alias -storepass changeit -file server.crt -keystore keystore.jks
 
+    export certificate ในรูปแบบ "Base 64 encoding"
+    keytool -export -alias server-alias -storepass changeit -file server.crt -keystore keystore.jks -rfc
+
 ##### Print Certificate
