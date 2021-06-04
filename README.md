@@ -1,5 +1,8 @@
 # Understanding-SSL-Certificates
 
+##### .PEM 
+
+  X.509 certificate encoded in text (base64 and encrypted)
 
 ### Reference
 
