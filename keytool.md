@@ -29,3 +29,5 @@
     แปลงจาก JKS เป็น PKCS12
     keytool -importkeystore -srckeystore keystore.jks -destkeystore keystore.p12 -deststoretype PKCS12 
     -srcalias server-alias -deststorepass zaq12wsx -destkeypass zaq12wsx
+    
+    ใช้ openssl เพื่อ export PKCS12 ไปยัง .pem file
