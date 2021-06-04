@@ -12,11 +12,13 @@
 
 ##### Export certificate (public) จาก keystore.jks ไปยัง file
 
-
+    export certificate เป็นยังไฟล์นามสกุล .cer
     keytool -export -alias server-alias -storepass changeit -file server.cer -keystore keystore.jks
     
-    keytool -export -alias server-alias -storepass changeit -file server.det -keystore keystore.jks
+    export certificate เป็นยังไฟล์นามสกุล .der
+    keytool -export -alias server-alias -storepass changeit -file server.der -keystore keystore.jks
      
+    export certificate เป็นยังไฟล์นามสกุล .crt
     keytool -export -alias server-alias -storepass changeit -file server.crt -keystore keystore.jks
 
 ##### Print Certificate
