@@ -4,7 +4,7 @@
 
 <small>X.509 certificate encoded in text (base64 and encrypted)</small>
 
-##### .DER Format
+##### .DER .CER Format
 
 <small>DER is a binary encoding for X.509 certificates and private keys. DER files are most commonly seen in Java contexts</small>
 
