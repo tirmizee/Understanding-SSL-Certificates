@@ -25,3 +25,6 @@
     keytool -export -alias server-alias -storepass changeit -file server.crt -keystore keystore.jks -rfc
 
 ##### ส่งออก key/privatekey จาก keystore.jks ไปยัง file
+
+    แปลงจาก JKS เป็น PKCS12
+    keytool -importkeystore -srckeystore keystore.jks -destkeystore keystore.p12 -deststoretype PKCS12 -srcalias server-alias -deststorepass zaq12wsx -destkeypass zaq12wsx
