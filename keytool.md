@@ -27,4 +27,5 @@
 ##### ส่งออก key/privatekey จาก keystore.jks ไปยัง file
 
     แปลงจาก JKS เป็น PKCS12
-    keytool -importkeystore -srckeystore keystore.jks -destkeystore keystore.p12 -deststoretype PKCS12 -srcalias server-alias -deststorepass zaq12wsx -destkeypass zaq12wsx
+    keytool -importkeystore -srckeystore keystore.jks -destkeystore keystore.p12 -deststoretype PKCS12 
+    -srcalias server-alias -deststorepass zaq12wsx -destkeypass zaq12wsx
