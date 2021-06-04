@@ -7,5 +7,9 @@
 ##### Export certificate from keystore.jks
 
     keytool -export -alias server-alias -storepass changeit -file server.cer -keystore keystore.jks
+    
+    keytool -export -alias server-alias -storepass changeit -file server.det -keystore keystore.jks
+     
+    keytool -export -alias server-alias -storepass changeit -file server.crt -keystore keystore.jks
 
 ##### Print Certificate
