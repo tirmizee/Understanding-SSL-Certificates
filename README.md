@@ -4,6 +4,10 @@
 
 <small>X.509 certificate encoded in text (base64 and encrypted)</small>
 
+##### .DER Format
+
+<small>X.509 certificate in binary form</small>
+
 ### Reference
 
 - https://gist.github.com/fntlnz/cf14feb5a46b2eda428e000157447309
