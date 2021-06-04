@@ -1,8 +1,8 @@
 # Understanding-SSL-Certificates
 
-##### .PEM 
+##### .PEM Format
 
-  X.509 certificate encoded in text (base64 and encrypted)
+<small>X.509 certificate encoded in text (base64 and encrypted)</small>
 
 ### Reference
 
