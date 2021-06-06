@@ -13,6 +13,10 @@
 
     keytool -list -v -keystore keystore.jks
 
+##### ส่งออก csr จาก keystore.jks 
+
+     keytool -certreq -alias server -file 192_168_0_56.csr -keystore 192_168_0_56.jks
+
 ##### ส่งออก certificate (public) จาก keystore.jks ไปยัง file
 
     export certificate เป็นยังไฟล์นามสกุล .cer
