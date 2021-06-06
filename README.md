@@ -21,3 +21,4 @@
 - https://www.digicert.com/kb/csr-ssl-installation/tomcat-keytool.htm
 - https://www.misterpki.com/keytool-export-cert/
 - https://www.thesslstore.com/knowledgebase/ssl-generate/csr-generation-guide-for-nginx-openssl/
+- https://www.digicert.com/kb/ssl-certificate-installation-java.htm
