@@ -11,9 +11,11 @@
     openssl genrsa -des3
 
 
-.
+##### ตรวจสอบใบรับรอง
 
-    openssl x509 -in cacerts.pem -text
+    openssl x509 -in cert.pem -text
+    
+    openssl x509 -in cert.crt -noout -text 
 
 ### Reference
 
