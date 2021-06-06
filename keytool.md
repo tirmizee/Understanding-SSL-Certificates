@@ -6,6 +6,9 @@
     ใช้คำสั่ง genkey ซึ่งคำเป็นคำสั่งจาก keytool เวอชันเก่าใหม่
     keytool -genkeypair -alias server-alias -keyalg RSA -keypass changeit -storepass changeit -keystore keystore.jks
 
+    ใช้คำสั่ง genkey
+    keytool -genkey -alias server -keyalg RSA -keysize 2048 -keystore 192_168_0_56.jks -dname "CN=192.168.0.56,OU=test, O=test, L=test, ST=test, C=TH" 
+
 ##### สำรวจเนื้อหาของ keystore
 
     keytool -list -v -keystore keystore.jks
