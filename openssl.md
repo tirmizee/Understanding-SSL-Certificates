@@ -30,6 +30,10 @@
     สร้าง public key จาก private key ที่มีอยู่
     openssl rsa -pubout -in private_key.pem -out public_key.pem
     
+    -----BEGIN PUBLIC KEY-----
+    .........................
+    -----END PUBLIC KEY-----
+
 
 ### Reference
 
