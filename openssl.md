@@ -34,6 +34,15 @@
     .........................
     -----END PUBLIC KEY-----
 
+    สร้าง private key แบบ encrypt ด้วย aes256
+    openssl genrsa -aes256 -out example.key 2048
+
+    -----BEGIN RSA PRIVATE KEY-----
+    Proc-Type: 4,ENCRYPTED
+    DEK-Info: AES-256-CBC,3840F0862DEE4F5752F3D45210580943
+    .......................................
+    -----END RSA PRIVATE KEY-----
+
 
 ### Reference
 
