@@ -17,6 +17,15 @@
     
     openssl x509 -in cert.crt -noout -text 
 
+##### สร้าง private_key และ public_key แบบดิบๆ
+
+    สร้าง private key
+    openssl genrsa -out private_key.pem 1024
+    
+    สร้าง public key จาก private key ที่มีอยู่
+    openssl rsa -pubout -in private_key.pem -out public_key.pem
+    
+
 ### Reference
 
 - https://sharif2008.wordpress.com/2017/08/27/difference-between-p12-pfx-vs-crt-cer-vs-pem-vs-der/
